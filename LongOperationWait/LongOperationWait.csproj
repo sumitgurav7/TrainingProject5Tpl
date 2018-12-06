@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A61C77D4-A36A-4672-BD1E-144A83798D4F}</ProjectGuid>
+    <ProjectGuid>{437BCECF-1E6C-43D4-B9CD-95AEE9B066D3}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>TrainingProject5Tpl</RootNamespace>
-    <AssemblyName>TrainingProject5Tpl</AssemblyName>
+    <RootNamespace>LongOperationWait</RootNamespace>
+    <AssemblyName>LongOperationWait</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ParametersToPass.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

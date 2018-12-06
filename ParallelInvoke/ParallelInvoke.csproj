@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A61C77D4-A36A-4672-BD1E-144A83798D4F}</ProjectGuid>
+    <ProjectGuid>{563DC746-0191-4128-8F19-61C724DC82E3}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>TrainingProject5Tpl</RootNamespace>
-    <AssemblyName>TrainingProject5Tpl</AssemblyName>
+    <RootNamespace>ParallelInvoke</RootNamespace>
+    <AssemblyName>ParallelInvoke</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ParametersToPass.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
